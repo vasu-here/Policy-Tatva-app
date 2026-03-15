@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Tatva | NIT Patna</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #0b0c0e;
+      --surface: #13151a;
+      --border: #1f2229;
+      --gold: #c9a84c;
+      --gold-dim: #9a7a35;
+      --text: #e8e4dc;
+      --muted: #7a7670;
+      --accent: #d4b86a;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* Background texture */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(201,168,76,0.08) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 80px 24px 100px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 64px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+
+    .fest-badge {
+      display: inline-block;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid var(--gold-dim);
+      padding: 6px 18px;
+      border-radius: 100px;
+      margin-bottom: 28px;
+      opacity: 0.9;
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.4rem, 6vw, 3.6rem);
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      margin-bottom: 16px;
+    }
+
+    h1 span {
+      color: var(--gold);
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+
+    .effective-date {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 20px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .effective-date::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold);
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 48px;
+      padding: 32px 36px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background: linear-gradient(180deg, var(--gold) 0%, transparent 100%);
+    }
+
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.45rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 14px;
+      letter-spacing: 0.01em;
+    }
+
+    p {
+      font-size: 15px;
+      color: #b8b4ac;
+      margin-bottom: 12px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    ul li {
+      font-size: 15px;
+      color: #b8b4ac;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--gold-dim);
+      font-size: 12px;
+    }
+
+    .highlight-box {
+      background: rgba(201, 168, 76, 0.06);
+      border: 1px solid rgba(201, 168, 76, 0.2);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-top: 14px;
+    }
+
+    .highlight-box p {
+      font-size: 14px;
+      color: var(--gold);
+      margin: 0;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    a:hover { border-bottom-color: var(--gold); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding-top: 48px;
+      border-top: 1px solid var(--border);
+    }
+
+    footer p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .footer-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="fest-badge">NIT Patna · Official App</div>
+      <h1>Privacy <span>Policy</span></h1>
+      <p class="subtitle">Tatva – Annual Sports & Cultural Fest</p>
+      <div class="effective-date">Effective Date: March 15, 2026</div>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>
+        This Privacy Policy applies to the <strong>Tatva</strong> mobile application, the official app for the Annual Sports and Cultural Fest of NIT Patna.
+      </p>
+      <p>
+        Tatva is a simple, read-only fest companion app. Its sole purpose is to display event details, schedules, and timelines for Tatva fest. We are committed to being fully transparent about how the app works.
+      </p>
+      <div class="highlight-box">
+        <p>✦ We do not collect, store, or share any personal data from our users.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Information We Do Not Collect</h2>
+      <p>The Tatva app does <strong>not</strong> collect any of the following:</p>
+      <ul>
+        <li>Personal identification information (name, email, phone number)</li>
+        <li>Location data</li>
+        <li>Device identifiers or usage analytics</li>
+        <li>Login credentials or account information</li>
+        <li>Any form of user-submitted content</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Firebase Notifications</h2>
+      <p>
+        The app uses <strong>Firebase Cloud Messaging (FCM)</strong> by Google solely for the purpose of sending push notifications about fest updates, event reminders, and announcements.
+      </p>
+      <p>
+        FCM may internally use a device token to route notifications to your device. This token is managed entirely by Firebase and is <strong>not accessed, stored, or used by us</strong> in any way.
+      </p>
+      <p>
+        For more information on how Firebase handles data, please refer to <a href="https://firebase.google.com/support/privacy" target="_blank">Google's Firebase Privacy Policy</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Third-Party Services</h2>
+      <p>The only third-party service integrated into the Tatva app is:</p>
+      <ul>
+        <li><strong>Firebase Cloud Messaging (Google)</strong> – for push notifications only</li>
+      </ul>
+      <p>We do not integrate any advertising networks, analytics platforms, or data brokers.</p>
+    </section>
+
+    <section>
+      <h2>Children's Privacy</h2>
+      <p>
+        The Tatva app is designed for college students and fest attendees. It does not knowingly collect any data from anyone, including children under the age of 13. Since no data is collected at all, the app is safe for all age groups.
+      </p>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>
+        If we make any changes to this Privacy Policy, we will update the effective date at the top of this page. We encourage users to review this page periodically. Continued use of the app after any changes constitutes acceptance of the updated policy.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>If you have any questions or concerns about this Privacy Policy, feel free to reach out:</p>
+      <ul>
+        <li><strong>Institution:</strong> NIT Patna</li>
+        <li><strong>Fest:</strong> Tatva – Annual Sports & Cultural Fest</li>
+        <li><strong>Email:</strong> <a href="mailto:tatva@nitp.ac.in">hackSlash@nitp.ac.in</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <span class="footer-logo">Tatva</span>
+      <p>Annual Sports & Cultural Fest · NIT Patna</p>
+      <p>© 2026 Tatva, NIT Patna. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
